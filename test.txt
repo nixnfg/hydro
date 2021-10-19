@@ -1,0 +1,13 @@
+假设git已经配置好
+设置代理
+git config --global http "127.0.0.1:4780"
+git config --global user.name “nixnfg”
+git config --global user.email "nixnfg@live.com"
+
+1、创建github目录或者叫rep
+2、克隆到本地 git clone "https://github.com/nixnfg/hydro.git"
+3、在本地目录下创建test.txt， git add test.txt （本地新增文件均可通过这种方式添加）
+4、执行文件检查 git commit -m"txt" （引号中的内容是备注，可以任意填写）
+5、提交更新 git push origin master （会提示登录）
+
+*** 如果github仓库出现修改或更新，可以使用git pull 更新到本地。
